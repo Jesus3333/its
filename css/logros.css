@@ -1,0 +1,167 @@
+.logros{
+	width: 100%;
+	background-image: url(../img/banner6.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.logros-one{
+	width: 1200px;
+	height: 700px;
+	padding-top: 1px;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.logros-one h1{
+	font-size: 30px;
+}
+.logros-one1{
+	width: 100%;
+	height: 300px;
+}
+.logros-one11{
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+.logros-one2{
+	width: 100%;
+	height: 300px;
+}
+.buttondiv-logros{
+	width: 31.8%;
+	height: 250px;
+}
+.buttondiv-logros a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+	font-family: 'Archivo Black', sans-serif;
+	width: 40%;
+	font-size: 13px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 130%;
+	margin-top: 15%; 
+	background: #1BBBF7;
+}
+.buttondiv-logros a:hover{
+	color: #000;
+	background: #178DB9;
+	transition: 1s;
+}
+.iconosdiv1{
+  width: 100%;
+  height: 150px;
+  color: #1BBBF7;
+  float: left;
+  text-decoration: none;
+  display: flex;
+  transition: all .5s;
+}
+.iconosdiv2{
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.iconosdiv2 h2{
+	font-size: 45px;
+}
+.iconos12{
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  margin-left: 40%;
+  font-size: 80px;
+  text-decoration: none;
+}
+.counter{
+  text-align: center;
+  font-size: 50px;
+}
+.counter1{
+  text-align: center;
+  font-size: 50px;
+}
+@media screen and (max-width: 1200px){
+	.logros-one{
+		width: 100%;
+		height: 1700px;
+	}
+	.logros-one11{
+		width: 100%;
+		height: 300px;
+	}
+	
+	.iconosdiv1{
+	  width: 100%;
+	  height: 150px;
+	  color: #1BBBF7;
+	  float: left;
+	  text-decoration: none;
+	  display: flex;
+	  transition: all .5s;
+	  padding-left: 37.2%;
+	  padding-right: 37.2%;
+
+	}
+	.iconos12{
+	  width: 25%;
+	  height: 80px;
+	  color: #fff;
+	  margin-left: 0%;
+	  font-size: 80px;
+	  text-decoration: none;
+	}
+	.iconosdiv2{
+	  width: 100%;
+	  height: 150px;
+	  color: #fff;
+	  text-align: center;
+	  text-decoration: none;
+	}
+	.iconosdiv2 h2{
+		font-size: 45px;
+	}
+	.iconos1{
+	  width: 50px;
+	  height: 50px;
+	  color: #fff;
+	  margin-left: 40%;
+	  font-size: 80px;
+	  text-decoration: none;
+	}
+	.logros-one2{
+
+		padding-right: 20%;
+		padding-left: 18%;
+	}
+	.buttondiv-logros{
+		width: 60%;
+		height: 250px;
+		float: left;
+	}
+	.buttondiv-logros a{
+		width: 60%;
+		float: unset;
+		margin-left: 10%;
+		margin-top: 10%; 
+	}
+}

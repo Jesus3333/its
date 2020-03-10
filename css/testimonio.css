@@ -1,0 +1,163 @@
+.testimonio{
+	width: 100%;	
+	background: -webkit-linear-gradient(360deg, #1BBBF7 10%, #2980B9 90%);
+background: -moz-linear-gradient(360deg, #1BBBF7 10%, #2980B9 90%);
+background: -ms-linear-gradient(360deg, #1BBBF7 10%, #2980B9 90%);
+background: -o-linear-gradient(360deg, #1BBBF7 10%, #2980B9 90%);
+background: linear-gradient(360deg, #1BBBF7 10%, #2980B9 90%);
+}
+.test{
+	width: 1350px;
+	padding-top: 1px;
+	overflow: hidden;
+	color: #000;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.block{
+	width: 1200px;
+	margin: 100px;
+	background: #fff;
+	border-radius: 5px;
+	color: #1BBBF7;
+	-webkit-box-shadow: 9px 9px 48px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 48px -24px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 48px -24px rgba(0,0,0,0.75);
+}
+.block h1{
+	font-size: 40px;
+}
+.block p{
+	color: #000;
+	line-height: 30px;
+}
+.uno{
+	width: 1200px;
+	height: 250px;
+}
+.dos{
+	width: 50%;
+	height: 250px;
+	text-align: left;
+	padding-left:50px;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+}
+.dos h1{
+		line-height: 2px;
+		padding-top: 12%;
+		font-size: 30px;
+		
+}
+.buttondiv{
+	width: 31.8%;
+	height: 250px;
+	float: left;
+}
+.buttondiv a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+	font-family: 'Archivo Black', sans-serif;
+	width: 40%;
+	font-size: 13px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 25%; 
+	background: #1BBBF7;
+}
+.buttondiv a:hover{
+	color: #000;
+	background: #178DB9;
+	transition: 1s;
+}
+.iconosdiv{
+  width: 14%;
+  height: 250px;
+  color: #1BBBF7;
+  float: left;
+  text-decoration: none;
+  display: flex;
+  transition: all .5s;
+}
+.iconos{
+  width: 70px;
+  height: 70px;
+  color: #1BBBF7;
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 60px;
+  text-decoration: none;
+}
+@media screen and (max-width: 1200px){
+	.testimonio{
+		width: 100%;
+		height: 550px;
+	}
+	.test{
+		width: 100%;
+	}
+	.block{
+		width: 80%;
+		margin: 10px;
+		margin-top: 50px;
+		height: 450px;
+	}
+	.uno{
+		width: 100%;
+		height: 300px;
+
+	}
+	.dos{
+		width: 100%;
+		height: 250px;
+		text-align: center;
+		padding-left:0px;
+		padding-bottom: 5%;
+	}
+	.dos h1{
+		line-height: 35px;
+		padding-top: 0%;
+	}
+	.dos p{
+		padding-left: 10%;
+		padding-right: 10%;
+		font-size: 15px;
+	}
+	.iconosdiv{
+	  width: 100%;
+	  height: 80px;
+	}
+	.iconos{
+		margin-right: 17%;
+		margin-left: 17%;
+	  padding-left: 0%;
+	  margin-top: 20px;
+	  font-size: 60px;
+	  float: right;
+	 width: 100%;
+	  height: 70px;
+	}
+	.buttondiv{
+		width: 100%;
+		height: 100px;
+		float: left;
+		padding:0px;
+	}
+	.buttondiv a{
+		width: 60%;
+		float: unset;
+  		margin-top: 20px;
+  		margin-left: 0px;
+	}
+}

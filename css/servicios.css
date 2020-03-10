@@ -1,0 +1,79 @@
+.servicio{
+	width: 100%;
+  overflow: hidden;
+}
+.dap{
+	width: 1368px;
+	overflow: hidden;
+	color: #000;
+  font-size: 30px;
+}
+.dap p{
+  font-size: 20px;
+}
+.shop{
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 28px;
+  color: #fff;
+  float: left;
+  padding-top: 5%;
+  background-image: url(../img/8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+-moz-box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+}
+.shop1{
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 28px;
+  float: left;
+  padding-top: 5%;
+  background-image: url(../img/9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+-moz-box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+}
+.shop2{
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 28px;
+  float: left;
+  padding-top: 5%;
+  background-image: url(../img/10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+-moz-box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+box-shadow: 15px 15px 30px 3px rgba(0,0,0,0.11);
+}
+@media screen and (max-width: 1200px){
+	.servicio{
+		width: 100%;
+	}
+	.dap{
+		width: 100%;
+	}
+  .shop{
+    width: 90%;
+    margin: 5%;
+  }
+  .shop1{
+    width: 90%;
+    margin: 5%;
+  }
+  .shop2{
+    width: 90%;
+    margin: 5%;
+  }
+}
